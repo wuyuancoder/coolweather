@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         btn = findViewById(R.id.button);
         tv = findViewById(R.id.textView);
         btn.setOnClickListener((v) -> {
-            tv.setText("你好啊！");
+            tv.setText("提交代码");
         });
     }
 }
